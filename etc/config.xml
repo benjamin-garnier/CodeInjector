@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <codeinjector>
+            <general>
+                <enable>1</enable>
+                <code>For now nothing works</code>
+            </general>
+        </codeinjector>
+    </default>
+<!-- BEWARE, if default values are given  for scopes websties and stores, they will take the xml event if the default scope has been changed in admin view (back office magento)
+   <websites>
+        <base>
+            <codeinjector>
+                <general>
+                    <enable>1</enable>
+                    <position>dumb block</position>
+                    <code>Code website xml</code>
+                </general>
+            </codeinjector>
+        </base>
+    </websites>
+    <stores>
+        <default>
+            <codeinjector>
+                <general>
+                    <enable>1</enable>
+                    <position>dumb block</position>
+                    <code>Code store xml</code>
+                </general>
+            </codeinjector>
+        </default>
+    </stores>
+-->
+</config>
